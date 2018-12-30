@@ -8,7 +8,7 @@ public class Algorithms {
         int n = input.length;
         for (int i = 0; i < n-1; i++)
         {
-            // Find the smallest number
+            /* Find the smallest number */
             int smallest = i;
             for (int j = i+1; j < n; j++) {
                 if (input[j] < input[smallest]) {
